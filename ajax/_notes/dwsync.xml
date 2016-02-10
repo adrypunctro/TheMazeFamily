@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="load_players_pos.php" server="ftp.adry.ro//public_html/game/maze/" local="130800966155548143" remote="130801635600000000" Dst="2" />
+<file name="save_player_pos.php" server="ftp.adry.ro//public_html/game/maze/" local="130707725146596530" remote="130716801000000000" Dst="1" />
+<file name="get_started.php" server="ftp.adry.ro//public_html/game/maze/" local="130801583733677836" remote="130801635600000000" Dst="2" />
+<file name="lobby.php" server="ftp.adry.ro//public_html/game/maze/" local="130801548048895356" remote="130801635600000000" Dst="2" />
+<file name="lobby_change_team.php" server="ftp.adry.ro//public_html/game/maze/" local="130801517615312349" remote="130801635600000000" Dst="2" />
+<file name="valid_join.php" server="ftp.adry.ro//public_html/game/maze/" local="130801543854524444" remote="130801635600000000" Dst="2" />
+<file name="get_started.php" server="ftp.adry.ro//public_html/maze/" local="130801583733677836" remote="130912986600000000" Dst="1" />
+<file name="load_players_pos.php" server="ftp.adry.ro//public_html/maze/" local="130800966155548143" remote="130912986600000000" Dst="1" />
+<file name="lobby.php" server="ftp.adry.ro//public_html/maze/" local="130801548048895356" remote="130912986600000000" Dst="1" />
+<file name="lobby_change_team.php" server="ftp.adry.ro//public_html/maze/" local="130801517615312349" remote="130912986600000000" Dst="1" />
+<file name="save_player_pos.php" server="ftp.adry.ro//public_html/maze/" local="130908856357353205" remote="130912986600000000" Dst="1" />
+<file name="valid_join.php" server="ftp.adry.ro//public_html/maze/" local="130801543854524444" remote="130912986600000000" Dst="1" />
+<file name="add_spell.php" server="ftp.adry.ro//public_html/maze/" local="130904516029348818" remote="130912986600000000" Dst="1" />
+<file name="load_data_server.php" server="ftp.adry.ro//public_html/maze/" local="130904373247078961" remote="130912986600000000" Dst="1" />
+<file name="load_players_info.php" server="ftp.adry.ro//public_html/maze/" local="130903542571214536" remote="130912986600000000" Dst="1" />
+<file name="save_finish.php" server="ftp.adry.ro//public_html/maze/" local="130910686651547896" remote="130912986600000000" Dst="1" />
+</dwsync>

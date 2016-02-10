@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, input, label, textarea, legend,
+select, isindex, listing, xmp, plaintext,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	/* se scoate inconsistenta (între browsere) implicita pentru ul, ol, padding sau margin */
+	/* se scoate si spatiul din pre, form, body, html, p, blockquote */
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+	 
+     /* se evita inconsistenta dintre setarile prestabilite ale browserelor în ce priveste */
+     /* heading font-sizes si pre/code */
+     font-style: normal;
+     font-size: 100%;
+     font-family: inherit;
+     vertical-align: baseline;
+     white-space: normal;
+}
+body {
+     line-height: 1;
+     color: black;
+     background: white;
+     padding: 5px;
+}
+
+
+/* fara list-markers initial, din moment ce listele sunt folosite mai des pentru semantice */
+ul, ol, dir, menu {
+     list-style: none;
+}
+
+
+/* tabelele au înca nevoie de 'cellspacing="0"' in marcare */
+table {
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+
+caption, th, td {
+     text-align: left;
+     font-weight: normal;
+}
+
+
+/* se scot posibilele quote marks (") din <q> si <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+     content: '';
+}
+blockquote, q {
+     quotes: "" "";
+}
+
+
+/* link-urile subliniate tind sa faca hipertextul mai putin citibil,
+deoarece sublinierea ascunde formele inferioare */
+:link, :visited, a, ins, blink {
+     text-decoration: none;
+}
+
+/* credeti ca imaginile care contin link cu bordura albastra e o idee buna? */
+iframe, form, fieldset, abbr, acronym, object, applet, table
+a, img, a img, :link img, :visited img {
+     border: none;
+}
+
+
+/* dezactivam câteva atribute urâte ale fonturilor din browserele standard */
+font {
+     color: inherit !important;
+     font: inherit !important;
+}
+marquee {
+     overflow: inherit !important;
+}
+nobr {
+     white-space: normal;
+}
